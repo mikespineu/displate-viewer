@@ -28,8 +28,10 @@ function Main() {
         gl={{
           antialias: true,
           toneMapping: ACESFilmicToneMapping,
+          toneMappingExposure: 0.6,
           outputEncoding: sRGBEncoding,
         }}
+        linear={false}
         camera={{
           fov: 55,
           near: 0.1,

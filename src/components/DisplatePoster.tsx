@@ -21,7 +21,7 @@ function DisplatePoster() {
   const pivotRef = useRef<Group>(null)
   const [isVisible, setIsVisible] = useState<boolean>(false)
   const [targetRotation, setTargetRotation] = useState(0)
-  const [currentPoster, setCurrentPoster] = useState(0)
+  const [currentPoster, setCurrentPoster] = useState(1)
 
   // @ts-ignore
   const { nodes } = useGLTF('/assets/poster/poster.gltf') as ExtendedGLTF

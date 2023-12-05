@@ -14,7 +14,7 @@ function Lights() {
   } = useControls('Directional Light', {
     position: [1, 0, 3],
     intensity: {
-      value: 1,
+      value: 0.8,
       min: 0,
       max: 20,
       step: 0.1,
@@ -29,7 +29,7 @@ function Lights() {
   } = useControls('Directional Light 2', {
     position: [-1, 1, 5],
     intensity: {
-      value: 0.6,
+      value: 0.5,
       min: 0,
       max: 20,
       step: 0.1,
@@ -41,7 +41,7 @@ function Lights() {
     'Ambient Light',
     {
       intensity: {
-        value: 1,
+        value: 0.5,
         min: 0,
         max: 20,
         step: 0.1,
