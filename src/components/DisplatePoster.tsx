@@ -151,6 +151,7 @@ function DisplatePoster() {
               boxShadow: '0 1px 2px rgba(0,0,0,0.2)',
               opacity: isVisible ? 1 : 0,
               transition: 'opacity 0.15s ease-in-out',
+              userSelect: 'none',
             }}
           >
             Vibrant <b>Colors</b> Printed on <b>Metal</b>
